@@ -1,0 +1,2 @@
+add_executable(main MACOSX_BUNDLE main.cpp Game.h character.cpp character.h definitions.h map.h map.cpp bomb.h bomb.cpp powerUp.h powerUp.cpp weapon.h weapon.cpp)
+target_link_libraries(main sound simplewindow ysbitmap ysbitmapfont bitmap)
